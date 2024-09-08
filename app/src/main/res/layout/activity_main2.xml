@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/Estadisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Estadisticas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="77dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="88dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/head1_sinfondo" />
+
+    <ImageView
+        android:id="@+id/brazoIzq"
+        android:layout_width="57dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="56dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazoizq_piernadere_sinfondo" />
+
+    <ImageView
+        android:id="@+id/piernaDer"
+        android:layout_width="72dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="124dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazodere_piernaizq_sinfondo" />
+
+    <ImageView
+        android:id="@+id/brazoDer"
+        android:layout_width="66dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="124dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazodere_piernaizq_sinfondo" />
+
+    <ImageView
+        android:id="@+id/piernaIzq"
+        android:layout_width="70dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="56dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazoizq_piernadere_sinfondo" />
+
+    <ImageView
+        android:id="@+id/torso"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="104dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/torso_sinfondo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="216dp"
+        android:layout_height="422dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/antenna_sinfondo" />
+
+    <GridLayout
+        android:id="@+id/keyboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:columnCount="10"
+        android:padding="8dp"
+        android:rowCount="4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp">
+
+        <!-- Fila 1 -->
+        <Button
+            android:id="@+id/button_A"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_B"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="B"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="C"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_D"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="D"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_E"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="E"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_F"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="F"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_G"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="G"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_H"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="H"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_I"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="I"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_J"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="J"
+            android:textSize="18sp" />
+
+        <!-- Fila 2 -->
+        <Button
+            android:id="@+id/button_K"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="K"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_L"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="L"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_M"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="M"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_N"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="N"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_O"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="O"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_P"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="P"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Q"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="Q"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_R"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="R"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_S"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="S"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_T"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="T"
+            android:textSize="18sp" />
+
+        <!-- Fila 3 -->
+        <Button
+            android:id="@+id/button_U"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="U"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_V"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="V"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_W"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="W"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_X"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="X"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Y"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="Y"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Z"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:padding="8dp"
+            android:text="Z"
+            android:textSize="18sp" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
